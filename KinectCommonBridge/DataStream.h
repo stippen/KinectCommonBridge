@@ -81,5 +81,7 @@ protected:
     bool m_started;
     bool m_bPollingMode;
 
+#ifdef KCB_ENABLE_FT
     FT_CAMERA_CONFIG	m_cameraConfig;
+#endif
 };
